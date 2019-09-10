@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/01Collection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/02Collection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/03Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/04SplitString.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/05CodingBeauty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/note3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/strings/ExtFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/strings/UseJoinKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch03/strings/join.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/MatchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/MatchKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Match.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Match.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSortKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSortKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/QuickSort.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +32,9 @@
       <list>
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -32,7 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QPcti41hCuLyqnx6oAKIGjgBeZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,67 +64,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.algorithm.MatchKt">
-    <configuration name="action.ch02.ColorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.action.ch03._05CodingBeautyKt">
+    <configuration name="action.ch03._02CollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch02.ColorKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch03._02CollectionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch02.RectangleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch03._03TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch02.RectangleKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch03._03TestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch02._04SmartCastKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch03._04SplitStringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch02._04SmartCastKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch03._04SplitStringKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch02._05LoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch03._05CodingBeautyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch02._05LoopKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch03._05CodingBeautyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithm.MatchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch03.strings.ExtFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.MatchKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch03.strings.ExtFunctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.algorithm.MatchKt" />
-        <item itemvalue="Kotlin.action.ch02._05LoopKt" />
-        <item itemvalue="Kotlin.action.ch02._04SmartCastKt" />
-        <item itemvalue="Kotlin.action.ch02.ColorKt" />
-        <item itemvalue="Kotlin.action.ch02.RectangleKt" />
+        <item itemvalue="Kotlin.action.ch03._05CodingBeautyKt" />
+        <item itemvalue="Kotlin.action.ch03._04SplitStringKt" />
+        <item itemvalue="Kotlin.action.ch03._03TestKt" />
+        <item itemvalue="Kotlin.action.ch03._02CollectionKt" />
+        <item itemvalue="Kotlin.action.ch03.strings.ExtFunctionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +155,7 @@
       <workItem from="1567754867892" duration="692000" />
       <workItem from="1567756347433" duration="225000" />
       <workItem from="1567997508375" duration="4384000" />
-      <workItem from="1568004189146" duration="16901000" />
+      <workItem from="1568004189146" duration="25638000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
@@ -151,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568021336419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="算法：匹配字符串">
+      <created>1568026711310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568026711310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kotlin-Action 第二章提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin-Action 第二章提交" />
+    <MESSAGE value="算法：匹配字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法：匹配字符串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
