@@ -16,7 +16,7 @@ class QuickSort {
     private fun helper(arr: Array<Int>, left: Int, right: Int){
         if (left >= right)
             return
-        val idx = partition2(arr, left, right)
+        val idx = partition(arr, left, right)
         helper(arr, left, idx-1)
         helper(arr, idx+1, right)
     }
@@ -59,7 +59,7 @@ class QuickSort {
 
 fun main(args: Array<String>) {
     val quickSort = QuickSort();
-    var arr = arrayOf(1,2,3,4,5)
+    var arr = arrayOf(5,6,3,2,6,8,2,6,8,2,3,6,4,8,2,6)
 //    println(quickSort.partition(arr,0, arr.size-1))
     quickSort.sort(arr)
     println(opCount)
