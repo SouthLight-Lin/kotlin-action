@@ -8,3 +8,8 @@ package action.ch04._09
  * @author linnanwei
  */
 data class DataClient(val name: String, val postalCode: Int)
+
+
+fun main(args: Array<String>) {
+    val client = DataClient("lnw", 1242)
+}

@@ -2,41 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_01/Button.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_01/Clickable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_01/Focusable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_01/RichButton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_02/Animated.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_03/TalkativeButton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_04/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_04/Button.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_04/Outer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_04/View.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_05/Expr.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_06/MyButton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_06/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_06/View.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_07/ImplUser.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_07/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_08/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_09/Client.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_09/DataClient.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_10/CountingSet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_10/DelegatingCollection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_11/CaseInsensitiveFileComparator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_11/Payroll.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_11/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_11/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_12/A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_12/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_12/关于静态成员.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/_13/Window.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/修饰符.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/其他.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch04/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/Pattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/_01/lambda.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/_02/LambdaOperateCollection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/_03/applyDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/_03/letAndAlsoDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/_03/withDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/_04/sam.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch05/总结.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/ch04/_04/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/ch04/_04/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/ch04/_08/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/ch04/_08/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/ch04/_09/DataClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/ch04/_09/DataClient.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +33,8 @@
         <option value="Kotlin Enum" />
         <option value="Class" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -95,67 +74,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.algorithm.PatternKt">
-    <configuration name="action.ch04._09.ClientKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.action.ch05._03.LetAndAlsoDemoKt">
+    <configuration name="action.ch05._02.LambdaOperateCollectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch04._09.ClientKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch05._02.LambdaOperateCollectionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch04._10.CountingSetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch05._03.ApplyDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch04._10.CountingSetKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch05._03.ApplyDemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch04._11.PersonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch05._03.LetAndAlsoDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch04._11.PersonKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch05._03.LetAndAlsoDemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch04._12.UserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch05._03.WithDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch04._12.UserKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch05._03.WithDemoKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithm.PatternKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch05._04.SamKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.PatternKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch05._04.SamKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.algorithm.PatternKt" />
-        <item itemvalue="Kotlin.action.ch04._12.UserKt" />
-        <item itemvalue="Kotlin.action.ch04._11.PersonKt" />
-        <item itemvalue="Kotlin.action.ch04._10.CountingSetKt" />
-        <item itemvalue="Kotlin.action.ch04._09.ClientKt" />
+        <item itemvalue="Kotlin.action.ch05._03.LetAndAlsoDemoKt" />
+        <item itemvalue="Kotlin.action.ch05._03.ApplyDemoKt" />
+        <item itemvalue="Kotlin.action.ch05._04.SamKt" />
+        <item itemvalue="Kotlin.action.ch05._03.WithDemoKt" />
+        <item itemvalue="Kotlin.action.ch05._02.LambdaOperateCollectionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +165,7 @@
       <workItem from="1567754867892" duration="692000" />
       <workItem from="1567756347433" duration="225000" />
       <workItem from="1567997508375" duration="4384000" />
-      <workItem from="1568004189146" duration="44214000" />
+      <workItem from="1568004189146" duration="58521000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
@@ -209,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568090495549</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Kotlin-action 第四章">
+      <created>1568168768854</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568168768854</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +216,8 @@
     <MESSAGE value="Kotlin-Action 第二章提交" />
     <MESSAGE value="算法：匹配字符串" />
     <MESSAGE value="Kotlin-action 第三章" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin-action 第三章" />
+    <MESSAGE value="Kotlin-action 第四章" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin-action 第四章" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

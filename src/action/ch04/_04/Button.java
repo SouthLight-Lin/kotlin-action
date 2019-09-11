@@ -18,12 +18,12 @@ package action.ch04._04;
 //
 //     }
 //
-//     /**
-//      * 如果去序列化时，会发生NotSerializableException异常
-//      * 原因是该类是Button的内部类，ButtonState类隐式保存了
-//      * 它外部Button类的应用，而Button不能被序列化
-//      * 解决办法就是将ButtonState类声明为static
-//      * */
+    /**
+     * 如果去序列化时，会发生NotSerializableException异常
+     * 原因是该类是Button的内部类，ButtonState类隐式保存了
+     * 它外部Button类的应用，而Button不能被序列化
+     * 解决办法就是将ButtonState类声明为static
+     * */
 //     public static class ButtonState implements State{
 //
 //     }
