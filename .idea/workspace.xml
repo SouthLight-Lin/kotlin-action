@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/AboutNullMain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/BasicDataType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/CollectionDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/MutableAndOnlyReadCollection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/NoResultProcessor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/Processor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/pingtai/FileContentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/pingtai/FileIndexer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch06/总结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/Point.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_01/ExtPoint.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_01/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/总结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/RotateRight.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSortKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSortKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/QuickSort.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +25,9 @@
         <option value="Kotlin Object" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -76,20 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.action.ch06.CollectionDemoKt">
-    <configuration name="action.ch05._03.LetAndAlsoDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-action" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch05._03.LetAndAlsoDemoKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.action.ch07._01.MainKt">
     <configuration name="action.ch06.AboutNullMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
@@ -129,14 +108,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithm.QuickSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch07._01.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.QuickSortKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch07._01.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithm.RotateRightKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-action" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.RotateRightKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.action.ch07._01.MainKt" />
+        <item itemvalue="Kotlin.algorithm.RotateRightKt" />
         <item itemvalue="Kotlin.action.ch06.CollectionDemoKt" />
         <item itemvalue="Kotlin.action.ch06.BasicDataTypeKt" />
         <item itemvalue="Kotlin.action.ch06.AboutNullMainKt" />
-        <item itemvalue="Kotlin.algorithm.QuickSortKt" />
-        <item itemvalue="Kotlin.action.ch05._03.LetAndAlsoDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +160,7 @@
       <workItem from="1567756347433" duration="225000" />
       <workItem from="1567997508375" duration="4384000" />
       <workItem from="1568004189146" duration="65574000" />
-      <workItem from="1568201285366" duration="1093000" />
+      <workItem from="1568201285366" duration="10734000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
@@ -205,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568190512798</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Kotlin-action 第六章">
+      <created>1568202400888</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568202400888</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +229,8 @@
     <MESSAGE value="Kotlin-action 第三章" />
     <MESSAGE value="Kotlin-action 第四章" />
     <MESSAGE value="Kotlin-action 第五章" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin-action 第五章" />
+    <MESSAGE value="Kotlin-action 第六章" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin-action 第六章" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,6 +244,16 @@
           <url>file://$PROJECT_DIR$/src/algorithm/Match.kt</url>
           <line>31</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/RotateRight.kt</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/RotateRight.kt</url>
+          <line>83</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
