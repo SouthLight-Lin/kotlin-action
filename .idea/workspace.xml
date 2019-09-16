@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/action/ch07/Point.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch07/_01/ExtPoint.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch07/_01/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch07/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/RotateRight.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_02/ExtPoint.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_02/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_02/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_03/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_03/Rectangle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_04/Ext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_04/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_05/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_05/ObservableProperty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_05/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch07/_05/PropertyChangeAware.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/ch03/01Collection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/ch03/01Collection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action/ch07/Point.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/ch07/Point.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,13 +35,14 @@
         <option value="Kotlin Interface" />
         <option value="Class" />
         <option value="Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1QPcti41hCuLyqnx6oAKIGjgBeZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -43,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../janus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -68,46 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.action.ch07._01.MainKt">
-    <configuration name="action.ch06.AboutNullMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-action" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch06.AboutNullMainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="action.ch06.BasicDataTypeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-action" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch06.BasicDataTypeKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="action.ch06.CollectionDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-action" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch06.CollectionDemoKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.action.ch07._05.MainKt">
     <configuration name="action.ch07._01.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
@@ -121,14 +91,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithm.RotateRightKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch07._02.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.RotateRightKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch07._02.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="action.ch07._03.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-action" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="action.ch07._03.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="action.ch07._04.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-action" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="action.ch07._04.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="action.ch07._05.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-action" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="action.ch07._05.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.action.ch07._05.MainKt" />
+        <item itemvalue="Kotlin.action.ch07._04.MainKt" />
+        <item itemvalue="Kotlin.action.ch07._03.MainKt" />
+        <item itemvalue="Kotlin.action.ch07._02.MainKt" />
         <item itemvalue="Kotlin.action.ch07._01.MainKt" />
-        <item itemvalue="Kotlin.algorithm.RotateRightKt" />
-        <item itemvalue="Kotlin.action.ch06.CollectionDemoKt" />
-        <item itemvalue="Kotlin.action.ch06.BasicDataTypeKt" />
-        <item itemvalue="Kotlin.action.ch06.AboutNullMainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +170,7 @@
       <workItem from="1567997508375" duration="4384000" />
       <workItem from="1568004189146" duration="65574000" />
       <workItem from="1568201285366" duration="10734000" />
+      <workItem from="1568461823444" duration="8233000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
