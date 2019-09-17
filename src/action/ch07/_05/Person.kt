@@ -6,6 +6,7 @@ package action.ch07._05
  */
 class Person(val name: String, age: Int, salary: Int) : PropertyChangeAware(){
 
+    /** 将getter和setter委托给ObservableProperty **/
     var age: Int by ObservableProperty(age, changeSupport)
     var salary : Int by ObservableProperty(salary, changeSupport)
 
