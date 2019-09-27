@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/action/ch08/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch08/clearupSameCode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch08/returnfunction.kt" afterDir="false" />
+    <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="算法题：从数组找找到第一个缺失的最小正整数">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch10/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch10/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch11/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/ch11/总结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ZeroOnePack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/GaoJieHanShu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/Proxy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/StringUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/music/BluePlayerView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/music/GreenPlayerView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/music/Player.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/music/PlayerUI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/music/PlayerView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/music/PlayerViewType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/music/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/music/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
     </list>
@@ -35,12 +49,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
-        <option value="Kotlin Enum" />
-        <option value="Kotlin Interface" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -60,10 +74,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="shangshou.music" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="action.ch04._07" />
       <recent name="action.ch04._02" />
       <recent name="action.ch04._01" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="shangshou.music" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Code\kotlin-action\src\action\ch04\_01" />
@@ -81,67 +101,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.action.ch08.ClearupSameCodeKt">
-    <configuration name="action.ch07._04.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.shangshou.music.MainKt">
+    <configuration name="action.ch10.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch07._04.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch10.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch07._05.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="action.ch11.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch07._05.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="action.ch11.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch08.ClearupSameCodeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.GaoJieHanShuKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch08.ClearupSameCodeKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.GaoJieHanShuKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch08.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.ProxyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch08.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.ProxyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="action.ch08.ReturnfunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.music.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch08.ReturnfunctionKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.music.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.action.ch08.ClearupSameCodeKt" />
-        <item itemvalue="Kotlin.action.ch08.ReturnfunctionKt" />
-        <item itemvalue="Kotlin.action.ch08.MainKt" />
-        <item itemvalue="Kotlin.action.ch07._05.MainKt" />
-        <item itemvalue="Kotlin.action.ch07._04.MainKt" />
+        <item itemvalue="Kotlin.shangshou.music.MainKt" />
+        <item itemvalue="Kotlin.shangshou.ProxyKt" />
+        <item itemvalue="Kotlin.shangshou.GaoJieHanShuKt" />
+        <item itemvalue="Kotlin.action.ch11.MainKt" />
+        <item itemvalue="Kotlin.action.ch10.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +196,14 @@
       <workItem from="1568201285366" duration="10734000" />
       <workItem from="1568461823444" duration="8233000" />
       <workItem from="1568620955308" duration="3373000" />
+      <workItem from="1569200666949" duration="10371000" />
+      <workItem from="1569229497279" duration="1191000" />
+      <workItem from="1569234328808" duration="599000" />
+      <workItem from="1569236246107" duration="3253000" />
+      <workItem from="1569290365108" duration="1528000" />
+      <workItem from="1569295845423" duration="1835000" />
+      <workItem from="1569298254202" duration="632000" />
+      <workItem from="1569312529242" duration="3828000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
@@ -226,7 +254,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568621039169</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Kotlin-action 第八章 done + BitMap">
+      <created>1568704904209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568704904209</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Kotlin-action 第九章">
+      <created>1568714579368</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568714579368</updated>
+    </task>
+    <task id="LOCAL-00010" summary="算法题：从数组找找到第一个缺失的最小正整数">
+      <created>1568949173425</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568949173425</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +302,11 @@
     <MESSAGE value="Kotlin-action 第五章" />
     <MESSAGE value="Kotlin-action 第六章" />
     <MESSAGE value="Kotlin-action 第七章（更新中）" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin-action 第七章（更新中）" />
+    <MESSAGE value="Kotlin-action 第八章 done" />
+    <MESSAGE value="Kotlin-action 第八章 done + BitMap" />
+    <MESSAGE value="Kotlin-action 第九章" />
+    <MESSAGE value="算法题：从数组找找到第一个缺失的最小正整数" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法题：从数组找找到第一个缺失的最小正整数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,6 +330,16 @@
           <url>file://$PROJECT_DIR$/src/algorithm/RotateRight.kt</url>
           <line>83</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/FindMissingPositive.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/shangshou/music/PlayerUI.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
