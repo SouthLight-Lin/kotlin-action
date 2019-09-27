@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="算法题：从数组找找到第一个缺失的最小正整数">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch10/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch10/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch11/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/action/ch11/总结.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ZeroOnePack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/GaoJieHanShu.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/Proxy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/StringUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/music/BluePlayerView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/music/GreenPlayerView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/music/Player.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/music/PlayerUI.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/music/PlayerView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/music/PlayerViewType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/music/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shangshou/music/main.kt" afterDir="false" />
+    <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/MinMeetingRooms.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
     </list>
@@ -53,8 +37,8 @@
         <option value="Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -101,20 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.shangshou.music.MainKt">
-    <configuration name="action.ch10.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-action" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch10.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.algorithm.MinMeetingRoomsKt">
     <configuration name="action.ch11.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
@@ -123,6 +94,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="action.ch11.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="algorithm.MinMeetingRoomsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-action" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.MinMeetingRoomsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.algorithm.MinMeetingRoomsKt" />
         <item itemvalue="Kotlin.shangshou.music.MainKt" />
         <item itemvalue="Kotlin.shangshou.ProxyKt" />
         <item itemvalue="Kotlin.shangshou.GaoJieHanShuKt" />
         <item itemvalue="Kotlin.action.ch11.MainKt" />
-        <item itemvalue="Kotlin.action.ch10.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +188,7 @@
       <workItem from="1569295845423" duration="1835000" />
       <workItem from="1569298254202" duration="632000" />
       <workItem from="1569312529242" duration="3828000" />
+      <workItem from="1569553040088" duration="3997000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
@@ -275,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568949173425</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="上手：类与对象">
+      <created>1569553081720</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569553081720</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +298,8 @@
     <MESSAGE value="Kotlin-action 第八章 done + BitMap" />
     <MESSAGE value="Kotlin-action 第九章" />
     <MESSAGE value="算法题：从数组找找到第一个缺失的最小正整数" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法题：从数组找找到第一个缺失的最小正整数" />
+    <MESSAGE value="上手：类与对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="上手：类与对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
