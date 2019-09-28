@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/MinMeetingRooms.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/caozuofu/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/jiegou/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/scoping_function/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/xunhuan/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/zhongzhui/maina.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
     </list>
@@ -36,8 +40,8 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -85,67 +89,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.algorithm.MinMeetingRoomsKt">
-    <configuration name="action.ch11.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.shangshou.zhongzhui.MainaKt">
+    <configuration name="shangshou.caozuofu.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="action.ch11.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.caozuofu.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithm.MinMeetingRoomsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.jiegou.UserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithm.MinMeetingRoomsKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.jiegou.UserKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shangshou.GaoJieHanShuKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.scoping_function.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="shangshou.GaoJieHanShuKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.scoping_function.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shangshou.ProxyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.xunhuan.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="shangshou.ProxyKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.xunhuan.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shangshou.music.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.zhongzhui.MainaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="shangshou.music.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.zhongzhui.MainaKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.algorithm.MinMeetingRoomsKt" />
-        <item itemvalue="Kotlin.shangshou.music.MainKt" />
-        <item itemvalue="Kotlin.shangshou.ProxyKt" />
-        <item itemvalue="Kotlin.shangshou.GaoJieHanShuKt" />
-        <item itemvalue="Kotlin.action.ch11.MainKt" />
+        <item itemvalue="Kotlin.shangshou.zhongzhui.MainaKt" />
+        <item itemvalue="Kotlin.shangshou.scoping_function.MainKt" />
+        <item itemvalue="Kotlin.shangshou.caozuofu.MainKt" />
+        <item itemvalue="Kotlin.shangshou.xunhuan.MainKt" />
+        <item itemvalue="Kotlin.shangshou.jiegou.UserKt" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +338,18 @@
           <line>22</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/shangshou/scoping_function/main.kt</url>
+          <line>26</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kotlin_action$shangshou_scoping_function_MainKt.ic" NAME="shangshou.scoping_function.MainKt Coverage Results" MODIFIED="1569652906023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
