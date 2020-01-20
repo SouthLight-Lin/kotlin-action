@@ -34,7 +34,6 @@ fun minMeetingRooms(intervals: Array<IntArray>): Int{
 
         pq.offer(intervals[i][1])
     }
-
     return pq.size
 }
 

@@ -3,3 +3,7 @@
  * @author linnanwei
  */
 class KotlinMain
+
+fun main(args: Array<String>) {
+    println(System.currentTimeMillis())
+}

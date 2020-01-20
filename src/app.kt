@@ -2,9 +2,6 @@
  * Created by linnanwei on 2019/9/5
  * @author linnanwei
  */
-fun main() {
-    println("Hello World, Hello Kotlin")
-}
 // Int参数，返回Int值
 public fun sum(a: Int, b: Int): Int{
     return a+b

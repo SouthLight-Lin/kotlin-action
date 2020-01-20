@@ -2,11 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shangshou/equal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/action/coroutine/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/GenerateParenthesis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/GrayCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceAndImpl/BanFilter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceAndImpl/IPBanFilter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceAndImpl/PassFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaceAndImpl/WhiteListPassFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objactandclass/object.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objactandclass/sealClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shangshou/lambda/lambdaFunction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/AppKt$main$sumLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/AppKt$main$sumLambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/AppKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/JavaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/JavaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/KotlinMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/KotlinMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/MatchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/MatchKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSortKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSortKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$lambdaA$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$lambdaA$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$main$runnable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$main$runnable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/KtLambdaKt$print$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/KtLambdaKt$print$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/KtLambdaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/KtLambdaKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KotlinMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KotlinMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/Match.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Match.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/MinMeetingRooms.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/MinMeetingRooms.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shangshou/GaoJieHanShu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/shangshou/GaoJieHanShu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shangshou/zhongzhui/maina.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/shangshou/zhongzhui/maina.kt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,10 +67,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Interface" />
+        <option value="Interface" />
+        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
@@ -49,6 +83,11 @@
   <component name="ProjectId" id="1QPcti41hCuLyqnx6oAKIGjgBeZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -73,79 +112,72 @@
       <recent name="F:\Code\kotlin-action\src\action\ch04\_01" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open kotlin-learn" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.shangshou.EqualKt">
-    <configuration name="shangshou.EqualKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.shangshou.lambda.LambdaFunctionKt">
+    <configuration name="algorithm.MatchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="shangshou.EqualKt" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.MatchKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shangshou.caozuofu.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="objactandclass.ObjectKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="shangshou.caozuofu.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="objactandclass.ObjectKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shangshou.scoping_function.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="objactandclass.SealClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="shangshou.scoping_function.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="objactandclass.SealClassKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shangshou.xunhuan.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.GaoJieHanShuKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="shangshou.xunhuan.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.GaoJieHanShuKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shangshou.zhongzhui.MainaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="shangshou.lambda.LambdaFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="shangshou.zhongzhui.MainaKt" />
+      <option name="MAIN_CLASS_NAME" value="shangshou.lambda.LambdaFunctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,13 +185,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.shangshou.EqualKt" />
-        <item itemvalue="Kotlin.shangshou.zhongzhui.MainaKt" />
-        <item itemvalue="Kotlin.shangshou.scoping_function.MainKt" />
-        <item itemvalue="Kotlin.shangshou.caozuofu.MainKt" />
-        <item itemvalue="Kotlin.shangshou.xunhuan.MainKt" />
+        <item itemvalue="Kotlin.shangshou.lambda.LambdaFunctionKt" />
+        <item itemvalue="Kotlin.shangshou.GaoJieHanShuKt" />
+        <item itemvalue="Kotlin.objactandclass.ObjectKt" />
+        <item itemvalue="Kotlin.objactandclass.SealClassKt" />
+        <item itemvalue="Kotlin.algorithm.MatchKt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -189,6 +233,15 @@
       <workItem from="1569298254202" duration="632000" />
       <workItem from="1569312529242" duration="3828000" />
       <workItem from="1569553040088" duration="3997000" />
+      <workItem from="1570519555988" duration="1380000" />
+      <workItem from="1570532761691" duration="672000" />
+      <workItem from="1570612855522" duration="3060000" />
+      <workItem from="1570676544213" duration="2262000" />
+      <workItem from="1571138891483" duration="1196000" />
+      <workItem from="1572328896052" duration="830000" />
+      <workItem from="1572871687864" duration="6157000" />
+      <workItem from="1574319835258" duration="2432000" />
+      <workItem from="1579509514236" duration="4321000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
@@ -274,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569654773089</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="singleton 单例模式">
+      <created>1573036401266</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573036401266</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,19 +397,51 @@
     <MESSAGE value="算法题：从数组找找到第一个缺失的最小正整数" />
     <MESSAGE value="上手：类与对象" />
     <MESSAGE value="上手：循环语句（五种）、集合操作符（map、filter、find...)、作用域函数(let、run、also、apply、takeIf、takeUnless、with)、运算符和中缀表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="上手：循环语句（五种）、集合操作符（map、filter、find...)、作用域函数(let、run、also、apply、takeIf、takeUnless、with)、运算符和中缀表达式" />
+    <MESSAGE value="singleton 单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton 单例模式" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="716" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579511128957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="716" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579511128957" />
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom" timestamp="1579513099107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579513099107" />
+    <state width="1877" height="315" key="GridCell.Tab.0.center" timestamp="1579513099106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579513099106" />
+    <state width="1877" height="315" key="GridCell.Tab.0.left" timestamp="1579513099106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579513099106" />
+    <state width="1877" height="315" key="GridCell.Tab.0.right" timestamp="1579513099106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="315" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579513099106" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1579509521273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579509521273" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579510311136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579510311136" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/algorithm/Match.kt</url>
-          <line>10</line>
+          <line>8</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/algorithm/Match.kt</url>
-          <line>31</line>
+          <line>29</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -380,10 +472,12 @@
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/GrayCode.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/kotlin_action$shangshou_scoping_function_MainKt.ic" NAME="shangshou.scoping_function.MainKt Coverage Results" MODIFIED="1569652906023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

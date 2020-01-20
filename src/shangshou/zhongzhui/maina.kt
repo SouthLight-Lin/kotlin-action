@@ -1,7 +1,7 @@
 package shangshou.zhongzhui
 
 /**
- * 重罪表达式
+ * 中缀表达式
  * @author SouthLight-Lin on 2019/9/28
  */
 

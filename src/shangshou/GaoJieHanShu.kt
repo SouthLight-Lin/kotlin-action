@@ -6,9 +6,15 @@ package shangshou
  * @author linnanwei
  */
 
-inline fun onlyIf(isDebug: Boolean, block:() -> Unit){
+inline fun onlyIf(isDebug: Boolean, block: () -> Unit) {
     if (isDebug) block()
 }
+
+fun calculate(x: Int, y: Int, operation: (Int, Int) -> Int): Int {
+    return operation(x, y)
+}
+
+fun sum(x: Int, y: Int) = x + y
 
 fun main(args: Array<String>) {
 
@@ -21,6 +27,13 @@ fun main(args: Array<String>) {
 
     function = runnable::run
 
-    onlyIf(true,function)
+    onlyIf(true, function)
+
+
+    val sumResult = calculate(4, 5, ::sum)
+    val mulResult = calculate(4, 5) { a, b ->
+        a * b
+    }
+    println("sumResult $sumResult, mulResult $mulResult")
 
 }
