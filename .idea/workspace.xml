@@ -19,32 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="《Kotlin核心编程》：temp commit">
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/five/_generics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/five/_smartcast.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/six/TestJavaCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/six/_collection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/six/_inline.kt" afterDir="false" />
+    <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="《Kotlin核心编程》：Lambda 和 集合">
+      <change afterPath="$PROJECT_DIR$/src/kotlincore/eight/_reflect.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/AppKt$main$sumLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/AppKt$main$sumLambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/AppKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/JavaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/JavaMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/KotlinMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/KotlinMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/TestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/MatchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/MatchKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSortKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/algorithm/QuickSortKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Action.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/objactandclass/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$lambdaA$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$lambdaA$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$main$runnable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt$main$runnable$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/HighFunctionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/KtLambdaKt$print$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/KtLambdaKt$print$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/two/KtLambdaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/two/KtLambdaKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +92,7 @@
       <recent name="F:\Code\kotlin-action\src\action\ch04\_01" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._inlineKt">
+  <component name="RunManager" selected="Kotlin._reflectKt">
     <configuration name="TestJavaCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kotlincore.six.TestJavaCollection" />
       <module name="kotlin-action" />
@@ -128,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_collectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
@@ -149,19 +114,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="kotlincore.six._collectionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_genericKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-action" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="kotlincore.five._genericKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,13 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_reflectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-action" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlincore.eight._reflectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._reflectKt" />
         <item itemvalue="Kotlin._inlineKt" />
         <item itemvalue="Application.TestJavaCollection" />
         <item itemvalue="Kotlin._collectionKt" />
         <item itemvalue="Kotlin._genericsKt" />
-        <item itemvalue="Kotlin._genericKt" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +202,8 @@
       <workItem from="1600990172637" duration="1188000" />
       <workItem from="1601111277870" duration="9098000" />
       <workItem from="1601215428523" duration="4145000" />
-      <workItem from="1601249854245" duration="780000" />
+      <workItem from="1601249854245" duration="1630000" />
+      <workItem from="1602140320489" duration="6768000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
@@ -330,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600907830443</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="《Kotlin核心编程》：Lambda 和 集合">
+      <created>1601250693506</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601250693506</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,33 +366,54 @@
     <MESSAGE value="上手：类与对象" />
     <MESSAGE value="上手：循环语句（五种）、集合操作符（map、filter、find...)、作用域函数(let、run、also、apply、takeIf、takeUnless、with)、运算符和中缀表达式" />
     <MESSAGE value="《Kotlin核心编程》：temp commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="《Kotlin核心编程》：temp commit" />
+    <MESSAGE value="《Kotlin核心编程》：Lambda 和 集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="《Kotlin核心编程》：Lambda 和 集合" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="758" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601215813404">
+    <state x="758" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602140795794">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="758" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1601215813404" />
+    <state x="758" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1602140795794" />
+    <state width="489" height="466" key="DebuggerActiveHint" timestamp="1602145794443">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="489" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1602145794443" />
     <state x="800" y="297" key="FileChooserDialogImpl" timestamp="1601115842076">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="800" y="297" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1601115842076" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1601221336732">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1602145776933">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601221336732" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1601221336732">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1602145776933" />
+    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1602145776933">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601221336732" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1601221336732">
+    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1602145776933" />
+    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1602145776933">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601221336732" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1601221336732">
+    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1602145776933" />
+    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1602145776933">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601221336732" />
+    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1602145776933" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1602145778474">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1602145778474" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1602145778474">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1602145778474" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1602145778474">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1602145778474" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1602145778474">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1602145778474" />
     <state x="198" y="94" key="MergeDialog" timestamp="1600960414414">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -428,18 +422,18 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1601111794887" />
-    <state x="481" y="179" key="Vcs.Push.Dialog.v2" timestamp="1600907833839">
+    <state x="481" y="179" key="Vcs.Push.Dialog.v2" timestamp="1601250891649">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="481" y="179" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1600907833839" />
-    <state x="693" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601111280424">
+    <state x="481" y="179" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1601250891649" />
+    <state x="693" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602140323300">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="693" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1601111280424" />
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1601115794958">
+    <state x="693" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1602140323300" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1602143178909">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1601115794958" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1602143178909" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -481,6 +475,16 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/kotlincore/eight/_reflect.kt</url>
+          <line>49</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/kotlincore/eight/_reflect.kt</url>
+          <line>103</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
