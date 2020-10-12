@@ -19,18 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="《Kotlin核心编程》：元编程，KClass属性API使用">
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/ComputerDTO.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_abstract_factory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_companion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_iterator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_object.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_observer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_require.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_strategy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_template.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_vetoable.kt" afterDir="false" />
+    <list default="true" id="04429735-a668-4c1b-a4f3-20903d85e272" name="Default Changelist" comment="《Kotlin核心编程》：第九章，利用Kotlin简化设计模式，工厂模式、观察者模式、策略模式、模板模式">
+      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_decorate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlincore/nine/_state_mode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin-action/META-INF/kotlin-action.kotlin_module" afterDir="false" />
     </list>
@@ -102,26 +93,28 @@
       <recent name="F:\Code\kotlin-action\src\action\ch04\_01" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._templateKt">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin._decorateKt">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_abstract_factoryKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="_decorateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="kotlincore.nine._abstract_factoryKt" />
+      <option name="MAIN_CLASS_NAME" value="kotlincore.nine._decorateKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,14 +133,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_requireKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="_state_modeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin-action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="kotlincore.nine._requireKt" />
+      <option name="MAIN_CLASS_NAME" value="kotlincore.nine._state_modeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._decorateKt" />
+        <item itemvalue="Kotlin._state_modeKt" />
         <item itemvalue="Kotlin._templateKt" />
         <item itemvalue="Kotlin._vetoableKt" />
         <item itemvalue="Kotlin._observerKt" />
-        <item itemvalue="Kotlin._requireKt" />
-        <item itemvalue="Kotlin._abstract_factoryKt" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +219,8 @@
       <workItem from="1601249854245" duration="1630000" />
       <workItem from="1602140320489" duration="6768000" />
       <workItem from="1602199925369" duration="138000" />
-      <workItem from="1602344100409" duration="8140000" />
+      <workItem from="1602344100409" duration="10604000" />
+      <workItem from="1602509837128" duration="2705000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin-Action 第二章提交">
       <created>1568021336418</created>
@@ -333,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602200041986</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="《Kotlin核心编程》：第九章，利用Kotlin简化设计模式，工厂模式、观察者模式、策略模式、模板模式">
+      <created>1602390671203</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602390671203</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,17 +399,18 @@
     <MESSAGE value="《Kotlin核心编程》：temp commit" />
     <MESSAGE value="《Kotlin核心编程》：Lambda 和 集合" />
     <MESSAGE value="《Kotlin核心编程》：元编程，KClass属性API使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="《Kotlin核心编程》：元编程，KClass属性API使用" />
+    <MESSAGE value="《Kotlin核心编程》：第九章，利用Kotlin简化设计模式，工厂模式、观察者模式、策略模式、模板模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="《Kotlin核心编程》：第九章，利用Kotlin简化设计模式，工厂模式、观察者模式、策略模式、模板模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="758" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602344812319">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="758" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1602344812319" />
-    <state x="809" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1602389112090">
+    <state x="809" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1602512404969">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="809" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1602389112090" />
+    <state x="809" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1602512404969" />
     <state width="489" height="466" key="DebuggerActiveHint" timestamp="1602145794443">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -417,22 +419,22 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="800" y="297" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1601115842076" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1602388557446">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1602512513727">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1602388557446" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1602388557446">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1602512513727" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1602512513726">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1602388557446" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1602388557446">
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1602512513726" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1602512513726">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1602388557446" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1602388557446">
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1602512513726" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1602512513727">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1602388557446" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1602512513727" />
     <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1602145778474">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -457,10 +459,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1601111794887" />
-    <state x="481" y="179" key="Vcs.Push.Dialog.v2" timestamp="1602200050467">
+    <state x="481" y="179" key="Vcs.Push.Dialog.v2" timestamp="1602390683334">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="481" y="179" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1602200050467" />
+    <state x="481" y="179" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1602390683334" />
     <state x="693" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602140323300">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
